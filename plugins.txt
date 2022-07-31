@@ -5,6 +5,7 @@ durable-task
 rebuild
 #configuration-as-code-support
 configuration-as-code
+nodejs
 
 
 # newest versions of openshift plugins
