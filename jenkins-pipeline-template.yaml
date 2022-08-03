@@ -28,7 +28,7 @@ objects:
         sourceStrategy:
           from:
             kind: ImageStreamTag
-            name: jenkins:latest
+            name: jenkins:2.289.1
             namespace: openshift
 
       output:
@@ -150,5 +150,4 @@ parameters:
     value: jenkins-builder
   - name: GIT_REPO
     description: "URL of the repository with Jenkins configuration"
-    value: https://github.com/markp112/Jenkins-ci-cd.git
-    
+    value: https://github.com/markp112/Jenkins-ci-cd
