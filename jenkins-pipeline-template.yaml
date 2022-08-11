@@ -28,7 +28,7 @@ objects:
         sourceStrategy:
           from:
             kind: ImageStreamTag
-            name: jenkins:2.289.1
+            name: jenkins:lts
             namespace: openshift
 
       output:
